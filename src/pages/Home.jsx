@@ -5,9 +5,7 @@ import Footer from '../components/Footer.jsx'
 import HousingCard from '../components/HousingCard.jsx'
 const housingList = require('../data/logements.json')
 
-function Home() {
-  const activeLink = 'home'
-
+function Home({activeLink}) {
   return (
     <div className="App">
       <Header activeLink={activeLink} />
