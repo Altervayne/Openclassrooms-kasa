@@ -1,13 +1,10 @@
 .housing-card__container {
     position: relative;
-    width: 27%;
-    margin: 40px 0;
-}
-
-.housing-card__image {
-    object-fit: cover;
-    height: 100%;
-    max-width: 100%;
+    background-size: cover;
+    height: 20vw;
+    width: 25%;
+    margin: 40px 2.7vw;
+    border-radius: 10px;
 }
 
 .housing-card__container::after {
@@ -26,10 +23,38 @@
     position: absolute;
     bottom: 8px;
     left: 16px;
+    width: 90%;
 
     font-size: 18px;
     font-weight: 300;
     color: white;
 
     z-index: 1;
+}
+
+
+/* Breakpoint Tablettes */
+
+@media all and (max-width: 992px) {
+
+    .housing-card__container {
+            height: 20vw;
+            width: 40%;
+            margin: 40px 3vw;
+            border-radius: 10px;
+        }
+
+}
+
+/* Breakpoint Mobile */
+
+@media all and (max-width: 767px) {
+
+    .housing-card__container {
+        height: 40vw;
+        width: 100%;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
 }
