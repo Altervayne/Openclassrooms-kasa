@@ -1,0 +1,22 @@
+header {
+    max-width: 100%;
+    margin: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    font-weight: 300;
+    font-size: 24px;
+    text-decoration-line: none;
+    margin-left: 57px;
+    color: #FF6060;
+}
+
+.nav__link__active {
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 57px;
+    color: #FF6060;
+}
