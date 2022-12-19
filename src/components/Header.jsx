@@ -6,16 +6,8 @@ function Header({activeLink}) {
         <header>
             <img src={ logoKasa } alt='Logo de Kasa'></img>
             <nav>
-                { activeLink === 'home' ? (
-                    <a href="/" className="nav__link__active">Accueil</a>
-                ) : (
-                    <a href="/" className="nav__link">Accueil</a>
-                ) }
-                { activeLink === 'about' ? (
-                    <a href="/about" className="nav__link__active">A Propos</a>
-                ) : (
-                    <a href="/about" className="nav__link">A Propos</a>
-                ) }
+                <a href="/" className={activeLink === 'home' ? "nav__link__active" : "nav__link"}>Accueil</a>
+                <a href="/about" className={activeLink === 'about' ? "nav__link__active" : "nav__link"}>A Propos</a>
             </nav>
         </header>
     )
