@@ -32,6 +32,16 @@
     z-index: 1;
 }
 
+.housing-card__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
 
 /* Breakpoint Tablettes */
 
