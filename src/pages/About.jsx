@@ -5,8 +5,6 @@ import Footer from '../components/Footer.jsx'
 import Accordion from '../components/Accordion.jsx'
 import aboutText from '../data/aboutText.js'
 
-// title={entry.title} content={entry.content}
-
 function About({activeLink}) {
   return (
     <div className="App">
