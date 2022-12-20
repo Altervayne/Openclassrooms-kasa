@@ -1,1 +1,30 @@
+.about__carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 100px;
+    margin-bottom: 20vh;
+}
 
+.about__carousel__accordion {
+    margin: 15px 0;
+    width: 85%;
+}
+
+/* Breakpoint Mobile */
+
+@media all and (max-width: 767px) {
+
+    .about__carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 20px;
+        margin-bottom: 28vh;
+    }
+
+    .about__carousel__accordion {
+        width: 100%;
+    }
+
+}
