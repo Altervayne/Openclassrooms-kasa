@@ -1,9 +1,11 @@
 .banner__container {
+    display: flex;
+    align-items: center;
     position: relative;
     background-size: cover;
     margin: 0 100px;
     border-radius: 25px;
-    height: 225px;
+    height: 12vw;
     background-color: black;
 }
 
@@ -20,16 +22,23 @@
 }
 
 .banner__title {
-    position: absolute;
     width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
     color: white;
     font-size: 3.7vw;
     font-weight: 300;
-    line-height: -50%;
     text-align: center;
+    z-index: 1;
+}
+
+.banner__title__mobile {
+    display: none;
+    visibility: hidden;
+    margin-left: 20px;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 300;
+    text-align: left;
+    z-index: 1;
 }
 
 /* Breakpoint Mobile */
@@ -37,6 +46,8 @@
 @media all and (max-width: 767px) {
 
     .banner__container {
+        align-items: center;
+        justify-content: flex-start;
         margin: 0 20px;
         border-radius: 10px;
         height: 110px;
@@ -47,10 +58,13 @@
     }
 
     .banner__title {
-        margin-left: 20px;
-        color: white;
-        font-size: 1.6em;
-        text-align: left;
+        display: none;
+        visibility: hidden;
+    }
+
+    .banner__title__mobile {
+        display: inline;
+        visibility: visible;
     }
 
 }
