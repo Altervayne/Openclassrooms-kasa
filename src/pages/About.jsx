@@ -5,6 +5,8 @@ import Footer from '../components/Footer.jsx'
 import Accordion from '../components/Accordion.jsx'
 import aboutText from '../data/aboutText.js'
 
+// title={entry.title} content={entry.content}
+
 function About({activeLink}) {
   return (
     <div className="App">
@@ -12,7 +14,7 @@ function About({activeLink}) {
       <main>
         <Banner activeLink={activeLink} />
         <div className="about__carousel">
-          <Accordion title='test' content='test' />
+          { aboutText.map(entry => <div className='about__carousel__accordion'><Accordion title={ entry.title } content={ entry.content } /></div>) }
         </div>
       </main>
       <Footer />
