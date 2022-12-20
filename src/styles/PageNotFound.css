@@ -20,7 +20,32 @@
 }
 
 .page-not-found__back {
-    margin-top: 10vh;
+    margin: 10vh 0;
+    margin-bottom: 26vh;
     font-size: 1.4vw;
     color: #FF6060;
+}
+
+
+
+/* Breakpoint Mobile */
+
+@media all and (max-width: 767px) {
+
+    .page-not-found__number {
+        margin-top: 30vw;
+        font-size: 28vw;
+    }
+
+    .page-not-found__oops {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .page-not-found__back {
+        margin-top: 30vw;
+        font-size: 3.7vw;
+        font-weight: 300;
+    }
+
 }
