@@ -4,7 +4,7 @@ import openArrow from '../assets/open-accordion-arrow.svg'
 import closedArrow from '../assets/closed-accordion-arrow.svg'
 
 function Accordion({title, content}) {
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(false)
 
     return (
         <div className='accordion__container'>
