@@ -20,3 +20,56 @@ header {
     margin-left: 57px;
     color: #FF6060;
 }
+
+.nav__link__caps {
+    display: none;
+    visibility: hidden;
+    font-weight: 300;
+    font-size: 3.5vw;
+    text-decoration-line: none;
+    margin-left: 6vw;
+    color: #FF6060;
+}
+
+.nav__link__caps-active {
+    display: none;
+    visibility: hidden;
+    font-weight: 300;
+    font-size: 3.5vw;
+    margin-left: 6vw;
+    color: #FF6060;
+}
+
+/* Breakpoint Mobile */
+
+@media all and (max-width: 767px) {
+
+    header {
+        margin: 20px 20px;
+    }
+
+    .header__logo {
+        width: 35vw;
+    }
+
+    .nav__link {
+        display: none;
+        visibility: hidden;
+    }
+
+    .nav__link__active {
+        display: none;
+        visibility: hidden;
+    }
+
+    .nav__link__caps {
+        display: inline;
+        visibility: visible;
+    }
+
+    .nav__link__caps-active {
+        display: inline;
+        visibility: visible;
+    }
+
+}

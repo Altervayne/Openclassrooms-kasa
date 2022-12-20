@@ -2,8 +2,8 @@
     position: relative;
     background-size: cover;
     height: 20vw;
-    width: 25%;
-    margin: 40px 2.7vw;
+    width: 28%;
+    margin: 1.5vw;
     border-radius: 10px;
 }
 
@@ -23,7 +23,7 @@
     position: absolute;
     bottom: 8px;
     left: 16px;
-    width: 90%;
+    width: 85%;
 
     font-size: 18px;
     font-weight: 300;
@@ -40,7 +40,7 @@
     .housing-card__container {
             height: 20vw;
             width: 40%;
-            margin: 40px 3vw;
+            margin: 20px 3vw;
             border-radius: 10px;
         }
 
@@ -51,9 +51,9 @@
 @media all and (max-width: 767px) {
 
     .housing-card__container {
-        height: 40vw;
+        height: 70vw;
         width: 100%;
-        margin: 20px 0;
+        margin: 10px 0;
         border-radius: 10px;
     }
 
