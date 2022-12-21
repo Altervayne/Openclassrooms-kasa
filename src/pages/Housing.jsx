@@ -4,6 +4,7 @@ import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import ImageCarrousel from '../components/ImageCarrousel.jsx'
 import Accordion from '../components/Accordion.jsx'
+import HousingTag from '../components/HousingTag.jsx'
 import '../styles/Housing.css'
 const housingList = require('../data/logements.json')
 
@@ -27,7 +28,7 @@ function Housing({activeLink}) {
                     <p className='housing__location'>{housing.location}</p>
                 </div>
                 <div className='housing__info-container'>
-                    {/* TAG COMPONENTS LIST */}
+                    <div className='housing__tag-list'>{ housing.tags.map(tag => <HousingTag tag={ tag } key={ tag } />) }</div>
                     {/* RATING COMPONENT */}
                 </div>
                 <div className='housing__info-container'>
