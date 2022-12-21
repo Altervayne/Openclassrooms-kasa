@@ -1,0 +1,11 @@
+.rating__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating__star {
+    padding: 0 5px;
+    height: 100%;
+    flex: 1;
+}
