@@ -29,8 +29,8 @@ function Housing({activeLink}) {
                     {/* RATING COMPONENT */}
                 </div>
                 <div className='housing__info-container'>
-                    <Accordion title='Description' content={housing.description} />
-                    <Accordion title='Équipements' content={housing.equipments}/>
+                    <div className='housing__accordion'><Accordion title='Description' content={housing.description} /></div>
+                    <div className='housing__accordion'><Accordion title='Équipements' content={housing.equipments}/></div>
                 </div>
             </main>
             <Footer />

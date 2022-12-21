@@ -1,6 +1,8 @@
 .accordion__container {
-    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
     border-radius: 5px;
+    height: 100%;
 }
 
 .accordion__header {
@@ -9,6 +11,7 @@
     padding: 0 20px;
     background-color: #FF6060;
     border-radius: 5px;
+    z-index: 1;
 }
 
 .accordion__header__title {
@@ -17,8 +20,21 @@
     margin: 10px 0;
 }
 
+.accordion__header__arrow {
+    width: 35px;
+}
+
 .accordion__content {
-    padding-top: 30px;
+    background-color: #F6F6F6;
+    flex-grow: 1;
+    padding-top: 40px;
+    margin-top: -10px;
+    border-radius: 5px;
+}
+
+.accordion__content li {
+    list-style: none;
+    margin-left: -20px;
 }
 
 .accordion__content__text {

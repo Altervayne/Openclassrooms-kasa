@@ -1,0 +1,10 @@
+.housing__info-container {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.housing__accordion {
+    min-height: 100%;
+    width: 47%;
+}
