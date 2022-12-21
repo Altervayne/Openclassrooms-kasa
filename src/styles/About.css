@@ -1,12 +1,11 @@
-.about__carousel {
+.about__carrousel {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 15px 100px;
-    margin-bottom: 20vh;
 }
 
-.about__carousel__accordion {
+.about__carrousel__accordion {
     margin: 15px 0;
     width: 85%;
 }
@@ -15,15 +14,14 @@
 
 @media all and (max-width: 767px) {
 
-    .about__carousel {
+    .about__carrousel {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 15px 20px;
-        margin-bottom: 28vh;
     }
 
-    .about__carousel__accordion {
+    .about__carrousel__accordion {
         width: 100%;
     }
 

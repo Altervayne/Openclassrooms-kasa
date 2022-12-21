@@ -22,18 +22,18 @@ function Housing({activeLink}) {
             <Header activeLink={activeLink} />
             <main>
                 <ImageCarrousel pictureList={ housing.pictures } />
-                <div className='housing__info-container'>
-                    <h1 className='housing__title'>{housing.title}</h1>
-                    <Host host={housing.host} />
+                <div className='housing__large-info-container'>
+                    <div className='housing__info-container'>
+                        <h1 className='housing__title'>{housing.title}</h1>
+                        <p className='housing__location'>{housing.location}</p>
+                        <div className='housing__tag-list'>{ housing.tags.map(tag => <HousingTag tag={ tag } key={ tag } />) }</div>
+                    </div>
+                    <div className='housing__info-container__host-rating'>
+                        <Host host={housing.host} />
+                        <Rating rating={housing.rating} />
+                    </div>
                 </div>
-                <div className='housing__info-container'>
-                    <p className='housing__location'>{housing.location}</p>
-                </div>
-                <div className='housing__info-container'>
-                    <div className='housing__tag-list'>{ housing.tags.map(tag => <HousingTag tag={ tag } key={ tag } />) }</div>
-                    <Rating rating={housing.rating} />
-                </div>
-                <div className='housing__info-container'>
+                <div className='housing__large-info-container'>
                     <div className='housing__accordion'><Accordion title='Description' content={housing.description} /></div>
                     <div className='housing__accordion'><Accordion title='Équipements' content={housing.equipments}/></div>
                 </div>

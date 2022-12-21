@@ -2,10 +2,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .rating__star {
     padding: 0 5px;
     height: 100%;
     flex: 1;
+}
+
+/* Breakpoint Mobile */
+
+@media all and (max-width: 767px) {
+
+    .rating__container {
+        height: 4vw;
+        margin-bottom: 0;
+    }
+
+    .rating__star {
+        padding: 0 2px;
+    }
+
 }

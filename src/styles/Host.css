@@ -18,3 +18,17 @@
     font-size: 20px;
     font-weight: 300;
 }
+
+/* Breakpoint Mobile */
+
+@media all and (max-width: 767px) {
+
+    .host__container {
+        height: 10vw;
+    }
+
+    .host__name {
+        font-size: 3vw;
+    }
+
+}

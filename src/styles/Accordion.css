@@ -16,6 +16,7 @@
 
 .accordion__header__title {
     color: white;
+    font-size: 1.8vw;
     font-weight: 400;
     margin: 10px 0;
 }
@@ -35,6 +36,12 @@
 .accordion__content li {
     list-style: none;
     margin-left: -20px;
+    padding-bottom: 5px;
+}
+
+.accordion__content ul {
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .accordion__content__text {
@@ -44,4 +51,24 @@
     margin: 0 20px;
     padding-bottom: 15px;
     text-align: justify;
+}
+
+/* Breakpoint Mobile */
+
+@media all and (max-width: 767px) {
+
+    .accordion__header__title {
+        font-size: 3.5vw;
+        font-weight: 300;
+    }
+
+    .accordion__header__arrow {
+        width: 20px;
+    }
+
+    .accordion__content__text {
+        font-size: 3.5vw;
+        padding-bottom: 10px;
+    }
+
 }

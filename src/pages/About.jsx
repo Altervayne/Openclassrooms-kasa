@@ -11,8 +11,8 @@ function About({activeLink}) {
       <Header activeLink={activeLink} />
       <main>
         <Banner activeLink={activeLink} />
-        <div className="about__carousel">
-          { aboutText.map(entry => <div className='about__carousel__accordion'><Accordion title={ entry.title } content={ entry.content } /></div>) }
+        <div className="about__carrousel">
+          { aboutText.map(entry => <div className='about__carrousel__accordion'><Accordion title={ entry.title } content={ entry.content } /></div>) }
         </div>
       </main>
       <Footer />

@@ -7,12 +7,23 @@
 .housing__location {
     color: #FF6060;
     font-weight: 300;
-    margin: 5px 0;
-    margin-top: -20px;
+    margin-top: 0;
     padding: 0;
 }
 
 .housing__info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.housing__info-container__host-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.housing__large-info-container {
     margin: 20px 100px;
     display: flex;
     justify-content: space-between;
@@ -20,6 +31,7 @@
 
 .housing__tag-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .housing__accordion {
@@ -31,8 +43,25 @@
 
 @media all and (max-width: 767px) {
 
-    .housing__info-container {
-        margin: 20px 20px;
+    .housing__info-container__host-rating {
+        margin: 20px 0;
+        margin-bottom: -10px;
+        height: 10vw;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .housing__large-info-container {
+        flex-direction: column;
+        margin: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    .housing__accordion {
+        width: 100%;
+        margin: 10px 0;
     }
 
 }
