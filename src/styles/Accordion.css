@@ -22,7 +22,8 @@
 }
 
 .accordion__header__arrow {
-    width: 35px;
+    width: 2.5vw;
+    max-width: 35px;
 }
 
 .accordion__content {
