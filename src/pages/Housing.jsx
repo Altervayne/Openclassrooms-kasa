@@ -6,6 +6,7 @@ import ImageCarrousel from '../components/ImageCarrousel.jsx'
 import Accordion from '../components/Accordion.jsx'
 import HousingTag from '../components/HousingTag.jsx'
 import Rating from '../components/Rating.jsx'
+import Host from '../components/Host.jsx'
 import '../styles/Housing.css'
 const housingList = require('../data/logements.json')
 
@@ -23,7 +24,7 @@ function Housing({activeLink}) {
                 <ImageCarrousel pictureList={ housing.pictures } />
                 <div className='housing__info-container'>
                     <h1 className='housing__title'>{housing.title}</h1>
-                    {/* USER COMPONENT */}
+                    <Host host={housing.host} />
                 </div>
                 <div className='housing__info-container'>
                     <p className='housing__location'>{housing.location}</p>
