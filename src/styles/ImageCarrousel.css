@@ -17,13 +17,13 @@
     height: 25%;
     padding: 10px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .image-number {
     position: relative;
 
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.15);
 
     line-height: 20%;
     text-align: center;
@@ -50,9 +50,6 @@
 
     .image-carrousel__arrow {
         height: 12%;
-        padding: 10px;
-        border-radius: 20px;
-        background-color: rgba(0, 0, 0, 0.3);
     }
 
     .image-number {
