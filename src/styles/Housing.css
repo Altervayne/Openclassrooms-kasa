@@ -1,3 +1,8 @@
+.housing__title {
+    color: #FF6060;
+    font-weight: 400;
+}
+
 .housing__info-container {
     margin: 0 100px;
     display: flex;
@@ -7,4 +12,14 @@
 .housing__accordion {
     min-height: 100%;
     width: 47%;
+}
+
+/* Breakpoint Mobile */
+
+@media all and (max-width: 767px) {
+
+    .housing__info-container {
+        margin: 0 20px;
+    }
+
 }
