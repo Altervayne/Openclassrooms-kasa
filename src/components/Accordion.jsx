@@ -5,6 +5,10 @@ import closedArrow from '../assets/closed-accordion-arrow.svg'
 
 function Accordion({title, content}) {
     const [isOpen, setIsOpen] = useState(false)
+    let isContentArray = false
+    if (content instanceof Array) {
+        isContentArray = true
+    }
 
     return (
         <div className='accordion__container'>
@@ -16,7 +20,11 @@ function Accordion({title, content}) {
 
             { isOpen === true ?
             <div className='accordion__content'>
-                <p className='accordion__content__text'>{content}</p>
+                { isContentArray ? (
+                    content.map(element => <p key={element} className='accordion__content__text'>{element}</p>)
+                ) : (
+                    <p className='accordion__content__text'>{content}</p>
+                ) }
             </div> 
             : null}
 
