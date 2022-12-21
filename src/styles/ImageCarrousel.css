@@ -1,0 +1,63 @@
+.image-carrousel__container {
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 28vw;
+    padding: 30px;
+    margin: 0 100px;
+
+    border-radius: 25px;
+}
+
+.image-carrousel__arrow {
+    height: 25%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.image-number {
+    position: relative;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    line-height: 20%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+}
+
+/* Breakpoint Mobile */
+
+@media all and (max-width: 767px) {
+
+    .image-carrousel__container {
+        height: 70vw;
+        margin: 0 20px;
+        padding: 10px;
+
+        border-radius: 10px;
+    }
+
+    .image-carrousel__arrow {
+        height: 12%;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .image-number {
+        display: none;
+        visibility: hidden;
+    }
+
+}
