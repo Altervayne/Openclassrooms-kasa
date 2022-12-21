@@ -1,6 +1,14 @@
 .housing__title {
     color: #FF6060;
     font-weight: 400;
+    margin: 5px 0;
+}
+
+.housing__location {
+    color: #FF6060;
+    font-weight: 300;
+    margin: 5px 0;
+    padding: 0;
 }
 
 .housing__info-container {

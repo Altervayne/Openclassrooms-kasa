@@ -23,7 +23,9 @@ function Housing({activeLink}) {
                     <h1 className='housing__title'>{housing.title}</h1>
                     {/* USER COMPONENT */}
                 </div>
-                <p className='housing__location'>{housing.location}</p>
+                <div className='housing__info-container'>
+                    <p className='housing__location'>{housing.location}</p>
+                </div>
                 <div className='housing__info-container'>
                     {/* TAG COMPONENTS LIST */}
                     {/* RATING COMPONENT */}
