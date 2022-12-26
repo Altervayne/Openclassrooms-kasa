@@ -37,6 +37,20 @@
     top: 50%;
 }
 
+
+/* Breakpoint Grand Ecrans */
+
+@media all and (min-width: 1921px) {
+
+    .image-carrousel__container {
+        max-height: 600px;
+
+        margin: 0 15vw;
+        margin-bottom: 20px;
+    }
+
+}
+
 /* Breakpoint Mobile */
 
 @media all and (max-width: 767px) {

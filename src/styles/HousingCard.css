@@ -43,6 +43,19 @@
 }
 
 
+/* Breakpoint Grand Ecrans */
+
+@media all and (min-width: 1921px) {
+
+    .housing-card__container {
+        height: 10vw;
+        width: 20%;
+        margin: 1.5vw;
+        border-radius: 10px;
+    }
+
+}
+
 /* Breakpoint Tablettes */
 
 @media all and (max-width: 992px) {

@@ -10,6 +10,16 @@
     width: 85%;
 }
 
+/* Breakpoint Grand Ecrans */
+
+@media all and (min-width: 1921px) {
+
+    .about__carrousel {
+        margin: 15px 25vw;
+    }
+
+}
+
 /* Breakpoint Mobile */
 
 @media all and (max-width: 767px) {

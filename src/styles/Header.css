@@ -40,6 +40,17 @@ header {
     color: #FF6060;
 }
 
+
+/* Breakpoint Grand Ecrans */
+
+@media all and (min-width: 1921px) {
+
+    header {
+        margin: 40px 15vw;
+    }
+
+}
+
 /* Breakpoint Mobile */
 
 @media all and (max-width: 767px) {

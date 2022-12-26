@@ -41,6 +41,22 @@
     z-index: 1;
 }
 
+/* Breakpoint Grand Ecrans */
+
+@media all and (min-width: 1921px) {
+
+    .banner__container {
+        max-height: 230px;
+        margin: 0 15vw;
+    }
+
+    .banner__title {
+        font-size: 62px;
+        font-weight: 400;
+    }
+
+}
+
 /* Breakpoint Mobile */
 
 @media all and (max-width: 767px) {

@@ -39,6 +39,17 @@
     width: 47%;
 }
 
+
+/* Breakpoint Grand Ecrans */
+
+@media all and (min-width: 1921px) {
+
+    .housing__large-info-container {
+        margin: 20px 15vw;
+    }
+
+}
+
 /* Breakpoint Mobile */
 
 @media all and (max-width: 767px) {

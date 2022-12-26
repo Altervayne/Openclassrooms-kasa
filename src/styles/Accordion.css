@@ -55,6 +55,16 @@
 }
 
 
+/* Breakpoint Grand Ecrans */
+
+@media all and (min-width: 1921px) {
+
+    .accordion__header__title {
+        font-size: 30px;
+    }
+
+}
+
 /* Breakpoint Tablettes */
 
 @media all and (max-width: 992px) {

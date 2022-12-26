@@ -27,6 +27,23 @@
 }
 
 
+/* Breakpoint Grand Ecrans */
+
+@media all and (min-width: 1921px) {
+
+    .page-not-found__number {
+        font-size: 350px;
+    }
+
+    .page-not-found__oops {
+        font-size: 48px;
+    }
+
+    .page-not-found__back {
+        font-size: 32px;
+    }
+
+}
 
 /* Breakpoint Mobile */
 
