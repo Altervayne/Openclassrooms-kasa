@@ -3,7 +3,7 @@ import Header from '../components/Header.jsx'
 import Banner from '../components/Banner.jsx'
 import Footer from '../components/Footer.jsx'
 import Accordion from '../components/Accordion.jsx'
-import aboutText from '../data/aboutText.js'
+const aboutText = require('../data/aboutText.json')
 
 function About({activeLink}) {
   return (
