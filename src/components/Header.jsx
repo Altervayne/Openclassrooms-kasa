@@ -1,4 +1,4 @@
-import '../styles/Header.css'
+import '../styles/components/Header.css'
 import logoKasa from '../assets/kasa-logo.svg'
 
 function Header({activeLink}) {

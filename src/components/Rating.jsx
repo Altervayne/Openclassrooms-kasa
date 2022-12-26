@@ -1,4 +1,4 @@
-import '../styles/Rating.css'
+import '../styles/components/Rating.css'
 import fullStar from '../assets/star-full.svg'
 import emptyStar from '../assets/star-empty.svg'
 

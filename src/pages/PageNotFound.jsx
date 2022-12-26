@@ -1,4 +1,4 @@
-import '../styles/PageNotFound.css';
+import '../styles/pages/PageNotFound.css';
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 

@@ -1,4 +1,4 @@
-import '../styles/Home.css';
+import '../styles/pages/Home.css';
 import Header from '../components/Header.jsx'
 import Banner from '../components/Banner.jsx'
 import Footer from '../components/Footer.jsx'

@@ -1,3 +1,4 @@
+import '../styles/pages/Housing.css'
 import { useParams } from 'react-router-dom'
 import PageNotFound from './PageNotFound.jsx'
 import Header from '../components/Header.jsx'
@@ -7,7 +8,7 @@ import Accordion from '../components/Accordion.jsx'
 import HousingTag from '../components/HousingTag.jsx'
 import Rating from '../components/Rating.jsx'
 import Host from '../components/Host.jsx'
-import '../styles/Housing.css'
+
 const housingList = require('../data/logements.json')
 
 

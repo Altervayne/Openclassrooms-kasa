@@ -1,4 +1,4 @@
-import '../styles/HousingTag.css'
+import '../styles/components/HousingTag.css'
 
 function HousingTag ({tag}) {
     return (

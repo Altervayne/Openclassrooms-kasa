@@ -1,4 +1,4 @@
-import '../styles/HousingCard.css'
+import '../styles/components/HousingCard.css'
 
 function HousingCard({ housing }) {
     return (

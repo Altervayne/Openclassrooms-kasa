@@ -1,5 +1,5 @@
+import '../styles/components/Accordion.css'
 import { useState } from 'react'
-import '../styles/Accordion.css'
 import openArrow from '../assets/open-accordion-arrow.svg'
 import closedArrow from '../assets/closed-accordion-arrow.svg'
 

@@ -1,4 +1,4 @@
-import '../styles/Host.css'
+import '../styles/components/Host.css'
 
 function Host({host}) {
     const firstName = host.name.split(" ")[0]

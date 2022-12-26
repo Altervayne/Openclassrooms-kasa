@@ -1,4 +1,4 @@
-import '../styles/Banner.css'
+import '../styles/components/Banner.css'
 import homeBanner from '../assets/kasa-home-banner.jpg'
 import aboutBanner from '../assets/kasa-about-banner.jpg'
 
