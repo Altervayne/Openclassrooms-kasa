@@ -54,6 +54,17 @@
     text-align: justify;
 }
 
+
+/* Breakpoint Tablettes */
+
+@media all and (max-width: 992px) {
+
+    .accordion__content__text {
+        font-size: 2vw;
+    }
+
+}
+
 /* Breakpoint Mobile */
 
 @media all and (max-width: 767px) {
