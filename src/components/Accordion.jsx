@@ -15,10 +15,10 @@ function Accordion({title, content}) {
 
             <div className='accordion__header'>
                 <h2 className='accordion__header__title'>{title}</h2>
-                <img className='accordion__header__arrow' src={isOpen === true ? openArrow : closedArrow} alt='' onClick={() => (isOpen === true ? setIsOpen(false) : setIsOpen(true))}></img>
+                <img className='accordion__header__arrow' src={isOpen ? openArrow : closedArrow} alt='' onClick={() => (isOpen ? setIsOpen(false) : setIsOpen(true))}></img>
             </div>
 
-            { isOpen === true ?
+            { isOpen ?
             <div className='accordion__content'>
                 { isContentArray ? (
                     <ul>{content.map(element => <li key={element} className='accordion__content__text'>{element}</li>)}</ul>
