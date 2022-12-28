@@ -18,7 +18,7 @@ function Housing({activeLink}) {
     const housing = housingList.find(entry => entry.id === id)
     housing ? validId = true : validId = false
 
-    return (validId === true ? (
+    return (validId ? (
         <div className="App">
             <Header activeLink={activeLink} />
             <main>
